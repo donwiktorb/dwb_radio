@@ -1,6 +1,6 @@
 ### Fivem script for discord radio. 👋
 
-### Need help or searching for scripts?
+### Need help or searching for fivem stuff?
 
 ➡️ [Join discord here](https://discord.gg/6Y7NHjc)
 
