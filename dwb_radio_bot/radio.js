@@ -40,4 +40,4 @@ client.on('message', async message => {
 	}
 });
 
-client.login('Njg5NTEyOTE3NTE4OTA5NDUy.XnD89g.XxIRTra_cL7_vKxEFg1-6I0KUWU');
+client.login('CHANGE TOKEN HERE');
