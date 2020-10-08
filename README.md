@@ -24,11 +24,18 @@
       client.login('BOT TOKEN');
     ```
     - Put radio.js with package.json in some directory ex. /home/bot/ then execute these in console
-    ```
-       cd BOT DIRECTORY ex. /home/bot/
-       npm install
-       /opt/nodejs/bin/node radio.js
-    ```
+     - Using linux
+     ```
+        cd BOT DIRECTORY ex. /home/bot/
+        npm install
+        /opt/nodejs/bin/node radio.js
+     ```
+     - Using windows
+     ```
+        cd BOT DIRECTORY ex. /home/bot/
+        npm install
+        node radio.js
+     ```
     - Invite bot to your discord by https://discord.com/oauth2/authorize?client_id=THEBOTCLIENTIDEDITTHIS&scope=bot&permissions=8
     
 ### SCRIPT SETUP
