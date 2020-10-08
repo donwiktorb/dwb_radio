@@ -15,6 +15,7 @@
     wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz
     tar xf node-v12.19.0-linux-x64.tar.xz
     mv node-v12.19.0-linux-x64 nodejs
+    rm node-v12.19.0-linux-x64.tar.xz
   ```
   - Installing bot
     - Create bot on [Discord Dev](https://discord.com/developers/applications) by creating new application (copy client id and save it for later) and clicking add bot, then copy the token
