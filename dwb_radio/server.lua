@@ -25,7 +25,6 @@ RegisterCommand("radio", function(source, args, rawCommand)
 		else
 			if tonumber(args[1]) <= Config.maxChannels  then
 				SendToDiscord(false, pname, args[1], discord, false)
-				TriggerClientEvent("dwb_radio:SetClientChannel", source, tonumber(args[1]))
 			else
 				TriggerClientEvent('chat:addMessage', source, {
 					args = {"^1 donwiktorb_radio ", Config.maxChannelsMSG}
