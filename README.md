@@ -2,7 +2,7 @@
 
 ### Need help or searching for fivem stuff?
 
-➡️ [Join discord here](https://discord.gg/6Y7NHjc)
+➡️ [Join discord here](https://discord.gg/txsweyv)
 
 ### BOT SETUP
 - Create new discord where you need to make Waiting channel on top and hidden 1 2 3 4... channels then continue these steps
