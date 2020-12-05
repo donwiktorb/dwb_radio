@@ -12,7 +12,7 @@ client.on('ready', () => {
 });
 
 client.on('message', async message => {	
-	if (message.channel.id == '707320148994031654')
+	if (message.channel.id == 'CHANGE ME ALSO')
 	{
 	  var radio3 = message.content.slice(6,7);
 	  var radio2 = message.content.slice(7,8);

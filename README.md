@@ -19,7 +19,7 @@
   ```
   - Installing bot
     - Create bot on [Discord Dev](https://discord.com/developers/applications) by creating new application (copy client id and save it for later) and clicking add bot, then copy the token
-    - Edit radio.js bottom line with token you have generated from Discord
+    - Edit radio.js line 15 with the same channelid as the webhook and bottom line with token you have generated from Discord
     ```
       client.login('BOT TOKEN');
     ```
