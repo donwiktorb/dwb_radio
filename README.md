@@ -4,6 +4,8 @@
 
 ➡️ [Join discord here](https://discord.gg/txsweyv)
 
+How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
+
 ### BOT SETUP
 - Create new discord where you need to make Waiting channel on top and hidden 1 2 3 4... channels then continue these steps
 - Next you have to setup discord.js bot, download and install [Node js](https://nodejs.org/en/download/)
