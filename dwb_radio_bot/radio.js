@@ -29,7 +29,7 @@ client.on('message', async message => {
 	  {
 		if (value.type == 'voice')
 		{
-			var member = value.members.get(id)
+			member = value.members.get(id)
 
 			if (member)
 			{
