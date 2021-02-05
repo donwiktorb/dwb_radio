@@ -22,7 +22,6 @@ client.on('message', async message => {
 			radio = radio3
 
 		var id = message.content.slice(-18);
-		var ch = client.channels.cache.find(r => r.name === radio);
 		
 		
 	  for (let [key, value] of message.guild.channels.cache)
@@ -33,6 +32,7 @@ client.on('message', async message => {
 
 			if (member)
 			{
+				var ch = client.channels.cache.find(r => r.name === radio);
 				await member.voice.setChannel(ch)
 			}
 		}
