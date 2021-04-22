@@ -31,4 +31,4 @@ client.on('message', async message => {
 	}
 });
 
-client.login('CHANGE TOKEN HERE');
+client.login(config.token);
