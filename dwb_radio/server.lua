@@ -14,7 +14,8 @@ function GetDc(source)
 end
 
 RegisterCommand("radio", function(source, args, rawCommand)
-	if args[1] ~= nil and tonumber(args[1]) then
+	local channel = args[1];
+	if channel ~= nil and tonumber(channel) then
 		local pname = GetPlayerName(source)
 		local discord = GetDc(source)
 		local identifier = GetPlayerIdentifier(source, 0)
@@ -23,8 +24,8 @@ RegisterCommand("radio", function(source, args, rawCommand)
 				args = {"^1 donwiktorb_radio ", Config.DCERRORMSG}
 			})
 		else
-			if tonumber(args[1]) <= Config.maxChannels  then
-				SendToDiscord(false, pname, args[1], discord, false)
+			if tonumber(channel) <= Config.maxChannels  then
+				SendToDiscord(false, pname, channel, discord, false)
 			else
 				TriggerClientEvent('chat:addMessage', source, {
 					args = {"^1 donwiktorb_radio ", Config.maxChannelsMSG}
