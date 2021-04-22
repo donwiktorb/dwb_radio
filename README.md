@@ -11,7 +11,7 @@ How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
 - Next you have to setup discord.js bot, download and install [Node js](https://nodejs.org/en/download/)
  - If you are using linux then you should follow these steps:
  - Nodejs
- - # THE HARD WAY
+ - THE HARD WAY
   ```
     sudo apt-get install npm
     cd /opt/
@@ -20,7 +20,7 @@ How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
     mv node-v12.19.0-linux-x64 nodejs
     rm node-v12.19.0-linux-x64.tar.xz
   ```
-  - # THE EASY WAY
+  - THE EASY WAY
     - [Click here](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
   - Installing bot
     - Create bot on [Discord Dev](https://discord.com/developers/applications) by creating new application (copy client id and save it for later) and clicking add bot, then copy the token
