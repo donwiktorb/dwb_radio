@@ -23,9 +23,6 @@ How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
     - Create bot on [Discord Dev](https://discord.com/developers/applications) by creating new application (copy client id and save it for later) and clicking add bot, then copy the token
     - Edit config.js token with bot token
     - Edit config.js channel with the same channelid as the webhook and bottom line with token you have generated from Discord
-    ```
-      client.login('BOT TOKEN');
-    ```
     - Put radio.js with package.json in some directory ex. /home/bot/ then execute these in console
      - Using linux
      ```
